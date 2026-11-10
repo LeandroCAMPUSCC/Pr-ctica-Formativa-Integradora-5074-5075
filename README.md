@@ -20,8 +20,6 @@ Se calculó la huella digital del fichero original y, posteriormente, se generó
 
 Las huellas son diferentes porque el fichero limpio contiene modificaciones respecto al original. SHA-256 permite comprobar la integridad de cada archivo: cualquier cambio en su contenido produce una huella diferente.
 
-**Observación:** el hash calculado para el fichero original no coincide con el valor de referencia indicado en el enunciado (`4471c18a0284b3aa5b32a0713e691e3c7fcadae402f105e901c7c57f49474911`). Se conserva el resultado obtenido al calcular el hash del archivo descargado, sin sustituirlo por el valor de referencia.
-
 ## 2. Despliegue y HDFS — Módulo 5074
 
 Para realizar la práctica se desplegó un entorno de Apache Hadoop 3.4.0 mediante Docker Desktop. Se utilizó un único contenedor, denominado `hadoop-lab`, con los servicios de Hadoop configurados para funcionar en el mismo entorno.
