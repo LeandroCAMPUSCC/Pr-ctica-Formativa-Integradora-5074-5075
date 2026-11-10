@@ -104,13 +104,6 @@ Además, el NameNode supervisa el estado de los bloques y detecta cuándo su nú
 
 Las capturas realizadas durante la práctica se encuentran en la carpeta `/evidencias` del repositorio.
 
-| Evidencia | Descripción |
-|---|---|
-| [01_hashes_sha256.png](evidencias/01_hashes_sha256.png) | Cálculo de las huellas SHA-256 de los archivos original y saneado. |
-| [02_jps_servicios.png](evidencias/02_jps_servicios.png) | Verificación de los cuatro procesos Hadoop mediante `jps`. |
-| [03_hdfs_comandos_fsck.png](evidencias/03_hdfs_comandos_fsck.png) | Ingesta, listado de archivos y auditoría de bloques mediante `hdfs fsck`. |
-| [04_webui_hdfs_browse.png](evidencias/04_webui_hdfs_browse.png) | Exploración de los archivos almacenados desde la interfaz web del NameNode. |
-
 ---
 
 **Conclusión**
